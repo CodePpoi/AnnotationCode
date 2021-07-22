@@ -1,8 +1,13 @@
-package annotation;
+package testclass;
 
+import annotation.FruitColor;
 import annotation.FruitColor.Color;
+import annotation.FruitName;
+
 
 public class Apple {
+
+    public int num;
 
     @FruitName("Apple")
     private String appleName;
